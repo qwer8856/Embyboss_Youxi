@@ -26,6 +26,7 @@ from bot.sql_helper.sql_emby import Emby, sql_get_emby, sql_update_emby
 
 
 class LuckyBoxConfig:
+    GAME_VERSION = "魔改版"
     DISABLED_LUCKY_BOX_CHATS = []
     DISABLED_FISHING_CHATS = []
     LUCKY_BOX_CHANCE = 0.005
