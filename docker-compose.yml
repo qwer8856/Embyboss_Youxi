@@ -16,7 +16,7 @@ services:
     ports:
       - '3306:3306'  # host物理直接映射端口为
     volumes:
-      - /root/Sakura_embyboss/db:/var/lib/mysql
+      - /root/Embyboss_Youxi/db:/var/lib/mysql
 
   # 以下 phpmyadmin 主要是为了更为直观的供owner翻阅数据，不影响bot运行，如有其他合适软件，可注释内容 # xxxx
 #  phpmyadmin:
@@ -33,7 +33,7 @@ services:
 #      - mysql
 
   embyboss:
-    image: gongjuren8856/embyboss_myself:latest # ARM与AMD镜像名称相同，会自动加载适合的镜像
+    image: gongjuren8856/embyboss_youxi:latest # ARM与AMD镜像名称相同，会自动加载适合的镜像
     container_name: embyboss
     restart: always
     network_mode: host

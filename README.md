@@ -1,3 +1,8 @@
-# Embyboss_Youxi
+# 魔改声明
 
-配置仓库模板，基于 `embyboss_myself-main` 的 example 配置与初始 compose。
+本仓库为二次开发（魔改）版本，基于以下项目修改而来：
+
+- 源项目地址：`https://github.com/qwer8856/Embyboss_Youxi`
+
+本仓库仅用于个人学习与维护用途。  
+原项目的版权与许可证归原作者及原仓库所有，请使用者遵守原项目许可证条款。
